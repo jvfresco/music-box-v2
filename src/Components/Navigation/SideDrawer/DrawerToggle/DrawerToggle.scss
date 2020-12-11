@@ -1,0 +1,66 @@
+@import '../../../../mixings.scss';
+@import '../../../../themes.scss';
+
+.DrawerToggle {
+  width: 6rem;
+  display: none;
+  padding: 1rem 1.5rem;
+}
+
+.DrawerToggleCheckbox {
+  display: none;
+}
+
+.DrawerToggleLabel {
+  position: fixed;
+  cursor: pointer;
+}
+
+.DrawerToggleIcon {
+  position: relative;
+  margin-top: 2.5rem;
+
+  &,
+  &::before,
+  &::after {
+      width: 4rem;
+      height: 3px;
+      display: inline-block;  
+      @include themify($themes){
+        background-color: themed('secondary-2')
+      }
+  }
+
+  &::before,
+  &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all .2s;
+  }
+  &::before {
+      top: -1.3rem;
+  }
+  &::after {
+      top: 1.4rem;
+  }
+}
+
+
+// .DrawerToggleCheckbox:checked + .DrawerToggleLabel .DrawerToggleIcon {
+//   background-color: transparent;
+// }
+// .DrawerToggleCheckbox:checked  + .DrawerToggleLabel .DrawerToggleIcon::before {
+//   top: 0;
+//   transform: rotate(135deg);
+// }
+// .DrawerToggleCheckbox:checked  + .DrawerToggleLabel .DrawerToggleIcon::after {
+//   top: 0;
+//   transform: rotate(-135deg);
+// }
+
+@include respond(phone){
+  .DrawerToggle {
+      display: block;
+  }
+}

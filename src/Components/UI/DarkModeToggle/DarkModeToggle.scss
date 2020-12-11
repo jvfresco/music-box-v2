@@ -1,0 +1,38 @@
+@import '../../../mixings.scss';
+@import '../../../themes.scss';
+
+
+
+.CheckToggle {
+  display: none;
+}
+
+.ToggleTheme {
+  cursor: pointer;
+}
+
+.ToggleThemeText {
+  display: none;
+  margin: 1.25rem 0;
+  font-size: 2rem;
+  @include themify($themes){
+    color: themed('secondary-2')
+  }
+}
+
+
+.ToggleThemeIcon {
+  height: 4rem;
+  @include themify($themes){
+    filter: themed('filter-secondary-2')
+  }
+}
+
+@include respond(phone){
+  .ToggleThemeIcon {
+    display: none;
+  }
+  .ToggleThemeText {
+    display: block;
+  }
+}

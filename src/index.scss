@@ -1,0 +1,44 @@
+
+@import './mixings.scss';
+@import './themes.scss';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /*activate inheritance for the whole website and set the value in the body */
+}
+
+html {
+  font-size: 62.5%; /*Font-size is used as the reference for the transform from rem to px. The percentage is applied to the default of 16px if user didn't touch it */
+  /* 1 rem = 10px */
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem == 12px
+  }
+  // @include respond(tab-land) {
+  //     font-size: 56.25%; //1rem == 9px
+  // }
+  // @include respond(tab-port) {
+  //     font-size: 50%; //1rem == 8px
+  // }
+  // @include respond(phone) {
+  //     font-size: 50%; //
+  // }
+}
+
+body {
+  box-sizing: border-box; /*borders and paddings are not added to the total size of the box*/
+  font-family: 'Hind', sans-serif;
+}
+
+::selection {
+  @include themify($themes){
+    background-color: themed('highlight')
+  }
+}
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }

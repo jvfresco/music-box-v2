@@ -1,0 +1,35 @@
+@import '../../themes.scss';
+@import '../../mixings.scss';
+
+.Logo {
+  float:left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  &Text {
+    font-size: 2.8rem;
+    margin: 2rem 0;
+    display: none;
+    @include themify($themes) {
+      color: themed('secondary-2');
+      border-bottom: 1px solid themed('primary')
+    }
+  }
+}
+
+.LogoImg {
+  height: 4rem;
+  @include themify($themes) {
+      filter: themed('filter-secondary-2')
+  }
+}
+
+@include respond(phone){
+  .Logo{
+    display: none;
+  }
+  .LogoText {
+    display: block;
+  }
+}

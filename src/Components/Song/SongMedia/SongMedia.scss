@@ -1,0 +1,60 @@
+@import '../../../variables.scss';
+@import '../../../mixings.scss';
+
+.SongMedia {
+  display:block;
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  white-space: nowrap;
+  transition: all 1s;
+  @include themify($themes) {
+    background-color: themed('transparency');
+    color: themed('secondary-2')
+  }
+  &:hover{
+    @include themify($themes) {
+      background-color: themed('primary-2');
+      white-space: normal;
+    }
+  } 
+}
+
+.SongTitleMedia, .SongArtistMedia {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 0 .5rem;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.SongArtistMedia {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.SongControls {
+  overflow:auto;
+  width: 100%;
+  display: table;
+}
+
+.SongPlay {
+  float: left; 
+}
+
+.SongDuration, .SongGenre {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.4rem;
+}
+
+.SongGenre {
+  width: 75%;
+  text-align: right;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding-right: .5rem;
+}

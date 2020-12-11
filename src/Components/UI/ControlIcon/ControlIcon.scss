@@ -1,0 +1,22 @@
+@import '../../../themes.scss';
+@import '../../../mixings.scss';
+
+.PlayIcon {
+  height:3.5rem;
+  cursor:pointer;
+  display: table-cell;
+  vertical-align: middle;
+  @include themify($themes){
+    filter: themed('filter-secondary-2')
+  }
+  &:hover {
+    @include themify($themes){
+      filter: themed('filter-highlight')
+    }
+  }
+}
+
+
+
+
+

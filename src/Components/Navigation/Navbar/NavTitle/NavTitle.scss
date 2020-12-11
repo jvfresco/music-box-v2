@@ -1,0 +1,22 @@
+@import '../../../../themes.scss';
+@import '../../../../mixings.scss';
+
+.TitleText {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  display: inline-block;
+  margin-top: 1rem;
+  @include themify($themes) {
+    color: themed('secondary-2')   
+  }
+}
+
+
+@include respond(phone){
+  .TitleText {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+

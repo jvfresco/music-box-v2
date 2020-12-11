@@ -1,0 +1,55 @@
+$themes: (
+  light: (
+      primary: #d9dcdeff,
+      primary-2: #e3e5e8,
+      primary-3: #eef0f2ff,
+      secondary: #573280ff,
+      secondary-2:  #23022eff,
+      highlight: #f96900ff,
+      transparency: hsla(216, 10%, 90%, 0.6),
+      filter-secondary-2: brightness(0) saturate(100%) invert(6%) sepia(31%) saturate(7187%) hue-rotate(276deg) brightness(84%) contrast(106%), 
+      filter-highlight: brightness(0) saturate(100%) invert(52%) sepia(42%) saturate(6223%) hue-rotate(4deg) brightness(100%) contrast(103%),
+  ),
+  dark:(
+      primary: #1c0b19ff,
+      primary-2: #33142Dff,
+      primary-3: #522048ff, 
+      secondary: #9a8c98ff,
+      secondary-2: #ebebd3ff,
+      highlight: #f96900ff,
+      transparency: hsla(312, 44%, 14%, 0.75),
+      filter-secondary-2: brightness(0) saturate(100%) invert(95%) sepia(7%) saturate(902%) hue-rotate(343deg) brightness(108%) contrast(84%),
+      filter-highlight: brightness(0) saturate(100%) invert(52%) sepia(42%) saturate(6223%) hue-rotate(4deg) brightness(100%) contrast(103%),
+  ),
+);
+
+
+
+//LightMode
+$light-primary: #d9dcdeff;
+$light-primary-dark: #e3e5e8;
+$light-primary-dark-2: #eef0f2ff;  
+$light-secondary: #573280ff;
+$light-secondary-dark:  #23022eff;
+
+
+
+//DarkMode
+$dark-primary: #1c0b19ff;
+$dark-primary-light: #33142Dff;
+$dark-primary-light-2: #522048ff; 
+$dark-secondary: #9a8c98ff;
+$dark-secondary-light: #ebebd3ff;
+
+// Used in both modes
+$highlight: #f96900ff;
+
+//Filters used to colorize SVG objects
+
+
+//LightMode
+$filter-light-secondary-dark: brightness(0) saturate(100%) invert(6%) sepia(31%) saturate(7187%) hue-rotate(276deg) brightness(84%) contrast(106%);  
+//DarkMode
+$filter-dark-secondary-light: brightness(0) saturate(100%) invert(95%) sepia(7%) saturate(902%) hue-rotate(343deg) brightness(108%) contrast(84%);
+// Used in both modes
+$filter-highlight: brightness(0) saturate(100%) invert(52%) sepia(42%) saturate(6223%) hue-rotate(4deg) brightness(100%) contrast(103%);

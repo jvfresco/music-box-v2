@@ -1,0 +1,23 @@
+@import '../../../../themes.scss';
+@import '../../../../mixings.scss';
+
+.SearchInput {
+  width: 100%;
+  border: none;
+  background: none;
+  height: 3rem;
+  margin-top: 0.8rem;
+  font-size: 2.3rem;
+  font-weight: 400;
+  border-image-slice: 1;
+  @include themify($themes) {
+      color: themed('secondary-2');
+      border-bottom: .1rem solid themed('secondary-2');
+      border-image-source: linear-gradient(to-right, themed('secondary-2'), transparent);
+  }
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+

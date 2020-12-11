@@ -1,0 +1,23 @@
+@import '../../../themes.scss';
+@import '../../../mixings.scss';
+
+.ProgressBar {
+  position: absolute;
+  width: 100%;
+  height: .5rem;
+  cursor: pointer;
+  @include themify($themes) {
+    background-color: themed('secondary')
+  }
+}
+
+.TimeBar {
+  position: absolute;
+  width: 100%;
+  height: .5rem;
+  pointer-events: none;
+  @include themify($themes) {
+    background-color: themed('highlight')
+  }
+}
+

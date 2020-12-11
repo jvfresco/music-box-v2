@@ -1,0 +1,53 @@
+@import '../../../../mixings.scss';
+@import '../../../../themes.scss';
+
+.NavItems{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  float: right;
+  margin-right: 1rem;
+}
+
+.NavItem {
+  margin-right: 2rem;
+}
+
+.NavItemText {
+  display: none;
+  margin: 1.25rem 0;
+  font-size: 2rem;
+  @include themify($themes) {
+      color: themed('secondary-2')
+  }
+}
+
+.NavItemImg {
+  height: 4rem;
+  @include themify($themes){
+    filter: themed('filter-secondary-2')
+  }
+}
+
+.NavItemLink {
+  text-decoration: none;
+}
+
+@include respond(phone){
+  .NavItems {
+    flex-direction: column;
+    align-items: start;
+    margin-right: 0;
+  }
+  .NavItem {
+    margin-right: 0;
+    &Text {
+      display: block;
+    }
+    &Img {
+      display: none;
+    }
+  }
+ 
+}

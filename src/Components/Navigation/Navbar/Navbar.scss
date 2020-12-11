@@ -1,0 +1,29 @@
+@import '../../../themes.scss'; 
+@import '../../../mixings.scss';
+
+.Navbar {
+  position: fixed;
+  height: 8rem;
+  width: 100%;
+  z-index:1;
+  display: flex;
+  justify-content: space-between;
+  @include themify($themes) {
+      background-color: themed('primary');
+  }
+}
+
+.SearchTitle {
+  width: 50%;
+}
+
+@include respond(phone) {
+
+  .DesktopOnly {
+    display: none;
+  }
+  .SearchTitle {
+    width: 90%;
+    margin-left: 2rem;
+  }
+}

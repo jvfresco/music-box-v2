@@ -1,0 +1,37 @@
+@import '../../../themes.scss';
+@import '../../../mixings.scss';
+
+.Modal {
+  padding: 1rem;
+  position: fixed;
+  display: inline-block;
+  min-width: 40%;
+  max-height: 70%;
+  z-index: 500;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid rgb(163, 163, 163);
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  left:50%;
+  top:15%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  border-radius: 5px;
+  @include themify($themes){
+    background-color: themed('primary-3');
+    color: themed('secondary-2')
+  }
+}
+
+@include respond(tab-port) {
+  .Modal {
+    min-width: 75%;
+  }
+}
+
+@include respond(phone) {
+  .Modal {
+    min-width: 95;
+  }
+}
+
