@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/music-box-v2/static/css/main.fcd684fc.chunk.css",
+    "main.js": "/music-box-v2/static/js/main.6b0b1d50.chunk.js",
+    "main.js.map": "/music-box-v2/static/js/main.6b0b1d50.chunk.js.map",
+    "runtime-main.js": "/music-box-v2/static/js/runtime-main.b363fb50.js",
+    "runtime-main.js.map": "/music-box-v2/static/js/runtime-main.b363fb50.js.map",
+    "static/js/2.eaff8248.chunk.js": "/music-box-v2/static/js/2.eaff8248.chunk.js",
+    "static/js/2.eaff8248.chunk.js.map": "/music-box-v2/static/js/2.eaff8248.chunk.js.map",
+    "index.html": "/music-box-v2/index.html",
+    "precache-manifest.4562642efe9fbd4fca38b3a5c95a1d36.js": "/music-box-v2/precache-manifest.4562642efe9fbd4fca38b3a5c95a1d36.js",
+    "service-worker.js": "/music-box-v2/service-worker.js",
+    "static/css/main.fcd684fc.chunk.css.map": "/music-box-v2/static/css/main.fcd684fc.chunk.css.map",
+    "static/js/2.eaff8248.chunk.js.LICENSE.txt": "/music-box-v2/static/js/2.eaff8248.chunk.js.LICENSE.txt",
+    "static/media/default_artwork.png": "/music-box-v2/static/media/default_artwork.a0cb384e.png",
+    "static/media/github2.svg": "/music-box-v2/static/media/github2.9407832c.svg",
+    "static/media/music_finder.svg": "/music-box-v2/static/media/music_finder.3ce52b7d.svg",
+    "static/media/pause.svg": "/music-box-v2/static/media/pause.5b003f17.svg",
+    "static/media/play.svg": "/music-box-v2/static/media/play.aef9a910.svg",
+    "static/media/rewind.svg": "/music-box-v2/static/media/rewind.0475bf17.svg",
+    "static/media/soundcloud.svg": "/music-box-v2/static/media/soundcloud.fa27dd99.svg",
+    "static/media/sun_moon.svg": "/music-box-v2/static/media/sun_moon.cbec9163.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b363fb50.js",
+    "static/js/2.eaff8248.chunk.js",
+    "static/css/main.fcd684fc.chunk.css",
+    "static/js/main.6b0b1d50.chunk.js"
+  ]
+}
