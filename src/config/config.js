@@ -1,5 +1,5 @@
 const CLIENT_ID = '1512fb9cbe8228095fe92c6503e3a071';
-const TRACKS_BASE_URL = 'http://api.soundcloud.com/tracks';
+const TRACKS_BASE_URL = 'https://api.soundcloud.com/tracks';
 
 export const MAX_SONGS_PER_PAGE = 20; //The API returns 1 object less than the value passed as a limit
 export const CLIENT_ID_QUERY = '?client_id=' + CLIENT_ID;
