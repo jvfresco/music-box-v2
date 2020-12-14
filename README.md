@@ -15,8 +15,9 @@ The application implements a custom web player, that can be operated from each i
 - Functional components, hooks and custom hooks
 - Infinite scroll
 - Dark / Light themes
-- Animations done with GSAP
+- Animations with GSAP
 - Style managed with scss
+- Soundcloud API
 
 
 
