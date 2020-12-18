@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Try a live version of the site [here](https://fispe.github.io/music-box-v2/).
+Try a live version of the site [here](https://jvfresco.github.io/music-box-v2/).
 
 ## Music Box
 
