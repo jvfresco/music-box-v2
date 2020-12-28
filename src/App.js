@@ -18,9 +18,10 @@ const App = (props) => {
     setToggleDrawer(false);
   };
 
-  const handleError = () => {
+ //useCallback prevents the unnecessary rerender of SongList 
+  const handleError = useCallback(()=>{
     setError(true)
-  }
+  },[])
 
   const errorMessage = (
     <div>
