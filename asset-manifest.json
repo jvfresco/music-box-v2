@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/music-box-v2/static/css/main.fcd684fc.chunk.css",
-    "main.js": "/music-box-v2/static/js/main.fd0fd1f0.chunk.js",
-    "main.js.map": "/music-box-v2/static/js/main.fd0fd1f0.chunk.js.map",
+    "main.js": "/music-box-v2/static/js/main.8b59cb73.chunk.js",
+    "main.js.map": "/music-box-v2/static/js/main.8b59cb73.chunk.js.map",
     "runtime-main.js": "/music-box-v2/static/js/runtime-main.b363fb50.js",
     "runtime-main.js.map": "/music-box-v2/static/js/runtime-main.b363fb50.js.map",
     "static/js/2.eaff8248.chunk.js": "/music-box-v2/static/js/2.eaff8248.chunk.js",
     "static/js/2.eaff8248.chunk.js.map": "/music-box-v2/static/js/2.eaff8248.chunk.js.map",
     "index.html": "/music-box-v2/index.html",
-    "precache-manifest.25b5fb52677e4f8e81b409fe15436707.js": "/music-box-v2/precache-manifest.25b5fb52677e4f8e81b409fe15436707.js",
+    "precache-manifest.f7f52c84d17a4ba542e890da9783d4a3.js": "/music-box-v2/precache-manifest.f7f52c84d17a4ba542e890da9783d4a3.js",
     "service-worker.js": "/music-box-v2/service-worker.js",
     "static/css/main.fcd684fc.chunk.css.map": "/music-box-v2/static/css/main.fcd684fc.chunk.css.map",
     "static/js/2.eaff8248.chunk.js.LICENSE.txt": "/music-box-v2/static/js/2.eaff8248.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.b363fb50.js",
     "static/js/2.eaff8248.chunk.js",
     "static/css/main.fcd684fc.chunk.css",
-    "static/js/main.fd0fd1f0.chunk.js"
+    "static/js/main.8b59cb73.chunk.js"
   ]
 }
